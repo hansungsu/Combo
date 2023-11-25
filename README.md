@@ -8,6 +8,7 @@ combocombo.vercel.app
 ## 컴포넌트를 붙일 프레임워크 설치
 - [o] Nuxt.js (port:3000, start: npm run dev)
 - [o] Stroybook (port:6006, start: npm run storybook)
+- [ ] 사이트, storybook 링크 분리
 ## 사이트에 필요한 컴포넌트 제작
 - [ ] 필요 컴포넌트 figma 제작
 - [ ] 컴포넌트 삽입
