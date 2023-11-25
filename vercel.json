@@ -4,5 +4,12 @@
     "devCommand": "npm run storybook",
     "installCommand": "npm install",
     "framework": null,
-    "outputDirectory": "./storybook-static"
+    "outputDirectory": "./storybook-static",
+    "routes": [
+        { "src": "/storybook/(.*)", "dest": "/storybook/$1", "headers": { "x-vercel-cache": "server" } },
+        { "src": "/", "dest": "/index.html", "headers": { "x-vercel-cache": "server" } }
+    ],
+    "rewrites": [
+    { "source": "/storybook/(.*)", "destination": "/storybook" }
+    ]
   }
