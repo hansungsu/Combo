@@ -6,10 +6,11 @@
     "framework": null,
     "outputDirectory": "./storybook-static",
     "routes": [
-        { "src": "/storybook/(.*)", "dest": "/storybook/$1", "headers": { "x-vercel-cache": "server" } },
-        { "src": "/", "dest": "/index.html", "headers": { "x-vercel-cache": "server" } }
-    ],
-    "rewrites": [
-    { "source": "/storybook/(.*)", "destination": "/storybook" }
-    ]
+        { "handle": "filesystem" },
+        { "src": "/(?!storybook)", "dest": "/index.html" },
+        { "src": "/storybook/(.*)", "dest": "/storybook/$1" }
+      ],
+      "rewrites": [
+        { "source": "/storybook/(.*)", "destination": "/storybook/index.html" }
+      ]
   }
