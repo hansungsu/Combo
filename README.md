@@ -4,8 +4,9 @@ ComponentCompany Prototype - Combo
 
 # WebSite
 
-combo-co.vercel.app
-combo-storybook.vercel.app
+사이트 : combo-co.vercel.app
+컴포넌트 : combo-storybook.vercel.app
+디자인 : https://www.figma.com/file/CzySGZIQ05hn3cd9h0mewq/Combo---Design
 
 # Todo
 
@@ -13,13 +14,12 @@ combo-storybook.vercel.app
 
 - [o] Nuxt.js (port:3000, start: npm run dev)
 - [o] Stroybook (port:6006, start: npm run storybook)
-- [ ] 사이트, storybook 링크 분리
+- [o] 사이트, storybook 링크 분리
 
 ## 사이트에 필요한 컴포넌트 제작
 
-- [ ] 필요 컴포넌트 figma 제작
-- [ ] 컴포넌트 삽입
-- [ ] 스토리북 빌드
+- [-] 필요 컴포넌트 figma 제작
+- [-] 컴포넌트 삽입
 
 ## 웹사이트 제작
 
